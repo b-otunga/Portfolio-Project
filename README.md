@@ -15,7 +15,7 @@
 
  
 
-This is a project about the biography of Diana, the purpose and usage of the project is state more information on Bill's hobbies, interests and skills. This project is my first assignment for week one and I will explain the list of projects that I have been creating using visual studio code, git bash and the uploading on Github.
+This is a project about the biography of Bill, the purpose and usage of the project is to state more information on Bill's hobbies, interests and skills. This project is my first assignment for week one and I will explain the list of projects that I have been creating using visual studio code, git bash and pushing to Github.
 
  
 
@@ -23,7 +23,7 @@ This is a project about the biography of Diana, the purpose and usage of the pro
 
  
 
-- This is a great place to be, to learn more on Diana
+- This is a great place to be, to learn more about Bill.
 
 - You will learn on Bill's Background including education, job experience etc.
 
@@ -47,7 +47,7 @@ There are no known bugs on this project.
 
  
 
-Languages used include HTML and CSS. I have used editor Visual Studio Code for creating the app and Git Bash terminal for coding.
+Languages used include HTML and CSS. I have used Visual Studio Code for creating the app and Git Bash terminal for coding.
 
  
 
