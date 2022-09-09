@@ -1,6 +1,26 @@
 body {
   font-size: 50px;
-  position: fixed;
+  position: relative;
   background-image: url("../Images/background.jpg");
   background-size: cover;
+  text-align: center;
+}
+#menu{
+    float: right;
+    height: 30px;
+    background: white;
+    font-size: 20px;
+}
+*{
+    box-sizing: border-box;
+}
+ul{
+    list-style:none;
+}
+#menu ul li{
+    float: left;
+    padding: 0 5px;
+}
+#menu ul li a{
+    text-decoration: none;
 }
