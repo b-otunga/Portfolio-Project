@@ -1,19 +1,27 @@
 body {
-  font-size: 50px;
   position: relative;
-  background-image: url("../Images/background.jpg");
-  background-size: cover;
-  text-align: center;
+  background-color: #C99F76;
+
 }
+#container{
+    background-image: url(../Images/background.jpg);
+    background-color: aliceblue;
+    height: 1000px;
+    position:fixed;
+    max-width: 1500px;
+    text-align: center;
+    margin-left: 210px;
+    padding-top: 5px;
+    font-size: 40px;
+    overflow: scroll;
+}
+
 #menu{
     float: right;
-    height: 30px;
-    background: white;
-    font-size: 20px;
-}
-*{
-    box-sizing: border-box;
-}
+    height: 50px;
+    background:transparent;
+    font-size: 25px;
+    padding: 5px 0;}
 ul{
     list-style:none;
 }
@@ -23,4 +31,11 @@ ul{
 }
 #menu ul li a{
     text-decoration: none;
+    border-right: 1px solid;
+}
+
+/* #about-me-container{
+    display: flex;
+    height: 100px;
+    width: 1300px ; */
 }
