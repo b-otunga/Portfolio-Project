@@ -1,0 +1,7 @@
+body{
+    font-size: 50px;
+    position:relative;
+    background: url("images/background.jpg") center center fixed;
+background-size: cover;
+
+}
