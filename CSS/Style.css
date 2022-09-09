@@ -1,20 +1,57 @@
 body {
+display: flex;
   position: relative;
   background-color: #C99F76;
-
+  margin: 0;
+  padding: 0;
+  justify-content: center;
 }
-#container{
+/* set all styling to box-model styling */
+*{box-sizing: border-box;}
+
+.container{
+    /* display: flex; */
     background-image: url(../Images/background.jpg);
+    background-size: cover;
     background-color: aliceblue;
-    height: 1000px;
+    height: 100%;
     position:fixed;
-    max-width: 1500px;
+    width: 85%;
     text-align: center;
-    margin-left: 210px;
-    padding-top: 5px;
+    flex-direction:column;
+    /* margin-left: 210px; */
+    /* padding-top: 5px; */
     font-size: 40px;
     overflow: scroll;
+    justify-content: center;
 }
+.about-me-container{
+flex:auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 360px;
+    width: 85%;
+}
+
+img {
+    float: left;
+    width: 550px;
+    height: 340px;
+  }
+
+
+.text{
+    text-align: justify;
+}
+#about {
+    height: 30%
+    float: 50%;
+}
+
+#about-me-image{ 
+    width: "60%"}
 
 #menu{
     float: right;
@@ -29,13 +66,8 @@ ul{
     float: left;
     padding: 0 5px;
 }
-#menu ul li a{
+#menu a{
     text-decoration: none;
     border-right: 1px solid;
 }
 
-/* #about-me-container{
-    display: flex;
-    height: 100px;
-    width: 1300px ; */
-}
