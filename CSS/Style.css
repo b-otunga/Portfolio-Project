@@ -7,31 +7,34 @@ display: flex;
   justify-content: center;
 }
 /* set all styling to box-model styling */
-*{box-sizing: border-box;}
+/* *{box-sizing: border-box;} */
 
 .container{
-    /* display: flex; */
+    display: flex;
     background-image: url(../Images/background.jpg);
     background-size: cover;
     background-color: aliceblue;
     height: 100%;
     position:fixed;
     width: 85%;
+    align-items: center;
     text-align: center;
     flex-direction:column;
-    /* margin-left: 210px; */
-    /* padding-top: 5px; */
     font-size: 40px;
     overflow: scroll;
-    justify-content: center;
 }
 .about-me-container{
-flex:auto;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: row;
-    height: 360px;
+    width: 85%;
+}
+
+#other-containers{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
     width: 85%;
 }
 
@@ -45,29 +48,23 @@ img {
 .text{
     text-align: justify;
 }
-#about {
-    height: 30%
-    float: 50%;
-}
-
-#about-me-image{ 
-    width: "60%"}
 
 #menu{
-    float: right;
-    height: 50px;
+    display: flex;
+    height: 5%;
     background:transparent;
-    font-size: 25px;
-    padding: 5px 0;}
-ul{
-    list-style:none;
+    font-size: 30px;
+    padding: 5px 0;
+    flex-direction: row;
 }
-#menu ul li{
-    float: left;
-    padding: 0 5px;
-}
+    
 #menu a{
     text-decoration: none;
-    border-right: 1px solid;
+    padding: 10px;
+}
+
+h1, h2, h3, h4, h5{
+    margin:0;
+    padding:0;
 }
 
