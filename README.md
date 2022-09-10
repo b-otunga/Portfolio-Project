@@ -33,7 +33,9 @@ This is a project about the biography of Bill, the purpose and usage of the proj
 
 - Just click on the hyperlinks that will direct you to view Github projects.
 
- 
+## Live Link
+
+The site is live at https://b-otunga.github.io/Portfolio-Project/
 
 ## Known Bugs
 
