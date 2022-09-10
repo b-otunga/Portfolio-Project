@@ -39,11 +39,14 @@ display: flex;
     width: 300px;
     height: 247px;
 margin-top: 10px;
-margin-right: 10px;
+margin-right: 30px;
     border: 10px solid #C99F76;
     border-radius: 5%;
 }
 
+#about-box{
+    width: 1030px;
+}
 #other-containers{
     justify-content: center;
     display: flex;
@@ -70,6 +73,7 @@ img {
     background:transparent;
     font-size: 32px;
     flex-direction: row;
+    flex-wrap: wrap;
 }
     
 #menu a{
