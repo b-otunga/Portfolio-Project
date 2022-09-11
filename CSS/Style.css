@@ -1,135 +1,132 @@
 body {
-display: flex;
+  display: flex;
   position: relative;
-  background-color: #C99F76;
+  background-color: #e3cab2;
   margin: 0;
   padding: 0;
   justify-content: center;
 }
 /* set all styling to box-model styling */
-*{box-sizing: border-box;}
-
-.container{
-    display: flex;
-    background-image: url(../Images/background.jpg);
-    background-size: cover;
-    background-color: aliceblue;
-    height: 100%;
-    position:fixed;
-    width: 85%;
-    align-items: center;
-    text-align: center;
-    flex-direction:column;
-    font-size: 40px;
-    overflow: scroll;
-    font-size: 35px;
-}
-.about-me-container{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 85%;
-    text-align: justify;
-    font-size:31px;
-    font-family: lucida bright;
+* {
+  box-sizing: border-box;
 }
 
-#about-me-image{
-    width: 100%;
-    height: 247px;
-margin-top: 10px;
-margin-right: 30px;
-    border: 10px solid #C99F76;
-    border-radius: 5%;
+.container {
+  display: flex;
+  background-image: url(../Images/backgroundimage.jpg);
+  background-size: cover;
+  background-color: aliceblue;
+  height: 100%;
+  position: fixed;
+  width: 85%;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  font-size: 40px;
+  overflow: scroll;
+  font-size: 35px;
+  color: rgb(12, 3, 79);
+}
+.about-me-container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 89%;
+  text-align: justify;
+  font-size: 31px;
+  font-family: lucida bright;
 }
 
-#about-box{
-   width: 1045px;
+.about-box {
+  max-width: 76%;
 }
 
-#about-me-image-box{
-    margin-right: 20px;
-    
+#about-me-image-box {
+  margin-right: 20px;
+  margin-bottom: 25px;
 }
 
-#other-containers{
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    width: 85%;
+#about-me-image {
+  width: 100%;
+  height: 247px;
+  margin-top: 10px;
+  margin-right: 30px;
+  border: 10px solid #c99f76;
+  border-radius: 5%;
 }
 
-/* img {
-    float: left;
-    width: 550px;
-    height: 340px;
-  } */
-
-
-.text{
-    text-align: justify;
+#other-containers {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 85%;
 }
 
-#menu{
-    width: 85%;
-    display: flex;
-   justify-content: flex-end;
-    height: 35%;
-    background:transparent;
-    font-size: 32px;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-    
-#menu a{
-    text-decoration: none;
-    padding: 15px;
+.text {
+  text-align: justify;
 }
 
-.proj-container{
-    justify-content:space-around;
-    align-items:flex-start;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    flex-wrap: wrap;
+#menu {
+  width: 85%;
+  display: flex;
+  justify-content: flex-end;
+  height: 35%;
+  background: transparent;
+  font-size: 32px;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.project-image{
-    width: 280px;
-    height: 180px;
-
+#menu a {
+  text-decoration: none;
+  padding: 15px;
 }
 
-#project-boxes{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 281px;
+.proj-container {
+  justify-content: space-around;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  flex-wrap: wrap;
 }
 
-.proj-container > a{
-    text-decoration: none;
-    text-align: justify;
+.project-image {
+  width: 280px;
+  height: 180px;
 }
 
-h1, h2, h3, h4, h5, h6{
-    margin:0;
-    padding:0;
-}
-#project-box{
-    width: 85%;
-    display: flex;
+#project-boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 281px;
 }
 
-#about-me{
-    font-size: 35px;
-    padding: 30px;
-    font-family: sans-serif;
+.proj-container > a {
+  text-decoration: none;
+  text-align: justify;
 }
-/* .dp-image{
-    width: 350px;
-    height: 250px;
-} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+#project-box {
+  width: 85%;
+  display: flex;
+}
+
+#about-me {
+  font-size: 35px;
+  padding: 30px;
+  font-family: sans-serif;
+}
